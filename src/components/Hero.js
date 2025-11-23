@@ -1,0 +1,90 @@
+import { motion } from 'framer-motion';
+import { Link } from 'react-scroll';
+
+const Hero = () => {
+  return (
+    <div className="w-full">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12">
+        <div className="flex justify-center">
+          <motion.div
+            className="flex w-full max-w-3xl flex-col items-center text-center gap-6 lg:items-start lg:text-left"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="w-full space-y-6">
+              <motion.h2
+                className="text-neon-blue font-mono text-sm uppercase tracking-[0.3em] sm:text-base"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.2, duration: 0.6 }}
+              >
+                Hey there!
+              </motion.h2>
+
+              <motion.h1
+                className="text-3xl sm:text-5xl md:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.4, duration: 0.6 }}
+              >
+                Vishukumar Patel
+              </motion.h1>
+
+              {/* <motion.h2
+                className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-300"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.6, duration: 0.6 }}
+              >
+                I design, build, automate and scale Cloud Infrastructure.
+              </motion.h2> */}
+
+              <motion.p
+                className="text-gray-400 max-w-xl mx-auto text-base sm:text-lg leading-relaxed lg:mx-0"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.8, duration: 0.6 }}
+              >
+                I am a DevOps & Cloud Engineer based in Ontario, Canada. I specialize in modernizing infrastructure using AWS, Terraform, and Kubernetes. I help organizations ship software faster by building secure, automated CI/CD pipelines that just work.
+              </motion.p>
+
+              <motion.div
+                className="pt-2 flex w-full flex-wrap justify-center gap-4 lg:justify-start"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1, duration: 0.6 }}
+              >
+                <Link
+                  to="projects"
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                  className="neon-border"
+                >
+                  <button className="px-6 py-3 text-white bg-glass-primary backdrop-blur-md hover:bg-glass-secondary transition-all duration-300 rounded-xl border border-glass-border">
+                    View My Work
+                  </button>
+                </Link>
+
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                  className="neon-border"
+                >
+                  <button className="px-6 py-3 text-white bg-transparent hover:bg-glass-primary hover:backdrop-blur-md transition-all duration-300 rounded-xl border border-glass-border">
+                    Contact Me
+                  </button>
+                </Link>
+              </motion.div>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero; 

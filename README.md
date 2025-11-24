@@ -2,7 +2,7 @@
 
 A modern portfolio website built with React and Tailwind CSS, featuring a stunning dark glassmorphic design.
 
-![Project Screenshot](screenshot.png)
+![Project Screenshot](portfolio-homepage.png)
 
 ## Design Philosophy
 
@@ -40,6 +40,7 @@ This website embraces the glassmorphic design trend with a dark theme, creating 
 
 - Node.js (v14 or higher)
 - npm or yarn
+- Required account on [Web3Forms](https://web3forms.com/)
 
 ### Installation
 
@@ -48,6 +49,9 @@ This website embraces the glassmorphic design trend with a dark theme, creating 
 git clone https://github.com/yourusername/dark-glassmorphic-portfolio.git
 cd dark-glassmorphic-portfolio
 ```
+
+* Before going forward, create one contact form on [Web3Forms](https://web3forms.com/) and get a access token.
+* Now, create .env file inside root directory and create variable REACT_APP_API_KEY, with access token value. 
 
 2. Install dependencies
 ```
@@ -82,11 +86,10 @@ npm run build
 
 ## License
 
-MIT License
+MIT License. For more info click on [LICENCE](https://github.com/VishuPatel-27/VishuPatel-27.github.io/blob/main/LICENSE).
 
 ## Acknowledgments
 
 - Design inspiration from modern glassmorphic UI trends
 - Icons provided by React Icons
 - Fonts from Google Fonts
-# portfolio-web

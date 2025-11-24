@@ -13,11 +13,19 @@ const ProjectCard = ({ project }) => {
       transition={{ duration: 0.5 }}
     >
       <motion.div 
-        className="h-full backdrop-blur-md rounded-2xl overflow-hidden relative group glass-card"
+        className="h-full backdrop-blur-md rounded-2xl overflow-hidden relative group glass-card cursor-pointer"
         whileHover={{ 
           borderColor: accentColor,
           y: -5,
           transition: { duration: 0.2 } 
+        }}
+        onClick={() => window.open(githubLink, '_blank', 'noopener,noreferrer')}
+        tabIndex={0}
+        role="button"
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            window.open(githubLink, '_blank', 'noopener,noreferrer');
+          }
         }}
       >
         {/* Color accent line at top of card */}

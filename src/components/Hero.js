@@ -46,7 +46,7 @@ const Hero = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8, duration: 0.6 }}
               >
-                I am a DevOps & Cloud Engineer based in Ontario, Canada. I specialize in modernizing infrastructure using AWS, CI/CD, Terraform, and Kubernetes. I help organizations ship software faster by building secure, automated CI/CD pipelines that just work.
+                I am a DevOps & Cloud Engineer based in Ontario, Canada. I specialize in modernizing infrastructure using AWS, Terraform, and Kubernetes. I help organizations ship software faster by building secure, automated CI/CD pipelines that just work.
               </motion.p>
 
               <motion.div

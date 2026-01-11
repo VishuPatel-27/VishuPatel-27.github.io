@@ -35,32 +35,37 @@ const About = () => {
               
               <div className="space-y-4 text-gray-300 text-base leading-relaxed">
                 <p>
-                  I am a curious DevOps & Cloud Engineer based in Canada, 
-                  passionate about the intersection of software development and reliable infrastructure.
+                  Hi, I'm Vishukumar Patel, a curious and passionate DevOps Engineer about building automated, secure, and cost-efficient cloud infrastructure.
+                  I focus on reducing deployment friction through Infrastructure as Code, container orchestration, and CI/CD automation. 
+                  My recent hands-on projects demonstrate real impact: 85% faster infrastructure provisioning with Terraform and 70% shorter release cycles using automated pipelines with Jenkins and GitHub Actions.
                 </p>
                 
                 <p>
                   My journey began as Junior Software Engineer (DevOps Intern), during that period I realized my true interest wasn't just in writing 
-                  application code - it was in architecting the systems that make that code run securely, efficiently, and at scale.
+                  application code - it was in architecting the systems that make that code run securely, efficiently, and at scale. With a background in Computer Engineering and a specialized Post-Grad in Cloud Computing, 
+                  I bridge the gap between Dev and Ops.
                 </p>
                 
                 <p>
-                  With a background in Computer Engineering and a specialized Post-Grad in Cloud Computing, 
-                  I bridge the gap between Dev and Ops. I don't just "configure servers"; I build self-healing 
-                  infrastructure using Terraform and Kubernetes. My recent work involves architecting secure 
-                  serverless solutions on AWS and optimizing container workflows to reduce image bloat by over 90%.
+                  𝗪𝗵𝗮𝘁 𝗜 𝗗𝗼?I architect and implement production-grade cloud solutions using AWS.
+                  I do Infrastructure Automation using Terraform, Container Orchestration using Kubernetes. 
+                  I engineered Docker multi-stage builds for optimisation and containerisation. 
+                  For CI/CD, I build solutions using GitHub actions and Jenkins, in which I used ArgoCD for a GitOps approach. 
+                  In my project implementation environment, I always follow the IAM least privilege approach along with various security scans in CI/CD pipelines,
+                  including SAST, SCA, and IaC validation, before even deploying a tiny change into the environment. 
+                  I build things the right way: documented, tested, and reproducible. When issues arise, I troubleshoot systematically and share learnings with the community.
                 </p>
                 
                 <p>
-                  I am AWS Certified (Solutions Architect Associate) and currently looking for opportunities to bring modern 
-                  DevOps practices to a forward-thinking team in Canada. When I'm not fine-tuning CI/CD pipelines, 
-                  you can find me exploring the latest in DevOps, cloud security and automation.
+                  𝗪𝗵𝗮𝘁 𝗗𝗿𝗶𝘃𝗲𝘀 𝗠𝗲?
+                  I'm energised by solving complex problems and optimising workflows. 
+                  I thrive in collaborative environments and stay current by building projects, reading docs, and engaging with the DevOps community.
                 </p>
               </div>
               
               {/* Skills Tags */}
               <div className="mt-6 flex flex-wrap gap-2 justify-center md:justify-start">
-                {["AWS","Azure","Terraform","Kubernetes","Docker","Jenkins","GitHub Actions", "Azure DevOps", "Python","Bash","YAML","Prometheus","Grafana","Ansible","Helm","ArgoCD","AWS SAM","Trivy","Checkov","Linux","Git", "GitHub"].map((skill, index) => (
+                {["Linux", "AWS","Terraform","Kubernetes","Docker","Jenkins","GitHub Actions", "Python","Bash","YAML","Prometheus","Grafana","Ansible","Helm","ArgoCD","AWS SAM","Trivy","Checkov",,"Git", "GitHub"].map((skill, index) => (
                   <motion.span 
                     key={index}
                     className="px-3 py-1 rounded-full text-sm bg-glass-secondary border border-glass-border text-white"

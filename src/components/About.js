@@ -37,9 +37,7 @@ const About = () => {
                 <p>
                   Hi, I'm Vishukumar Patel, a curious and passionate DevOps Engineer about building automated, secure, and cost-efficient cloud infrastructure.
                   I focus on reducing deployment friction through Infrastructure as Code, container orchestration, and CI/CD automation. 
-                  My recent hands-on projects demonstrate real impact: 85% faster infrastructure provisioning with Terraform and 70% shorter release cycles using automated pipelines with Jenkins and GitHub Actions.
-                </p>
-                
+                  In my recent hands-on projects, I got measurable results, including faster infrastructure provisioning with Terraform and much shorter release cycles using automated pipelines.</p>
                 <p>
                   My journey began as Junior Software Engineer (DevOps Intern), during that period I realized my true interest wasn't just in writing 
                   application code - it was in architecting the systems that make that code run securely, efficiently, and at scale. With a background in Computer Engineering and a specialized Post-Grad in Cloud Computing, 
@@ -47,11 +45,11 @@ const About = () => {
                 </p>
                 
                 <p>
-                  𝗪𝗵𝗮𝘁 𝗜 𝗗𝗼?I architect and implement production-grade cloud solutions using AWS.
+                  𝗪𝗵𝗮𝘁 𝗜 𝗗𝗼? I architect and implement production-grade cloud solutions using AWS.
                   I do Infrastructure Automation using Terraform, Container Orchestration using Kubernetes. 
                   I engineered Docker multi-stage builds for optimisation and containerisation. 
                   For CI/CD, I build solutions using GitHub actions and Jenkins, in which I used ArgoCD for a GitOps approach. 
-                  In my project implementation environment, I always follow the IAM least privilege approach along with various security scans in CI/CD pipelines,
+                  In my projects, production-style environment, I always follow the IAM least privilege approach along with various security scans in CI/CD pipelines,
                   including SAST, SCA, and IaC validation, before even deploying a tiny change into the environment. 
                   I build things the right way: documented, tested, and reproducible. When issues arise, I troubleshoot systematically and share learnings with the community.
                 </p>

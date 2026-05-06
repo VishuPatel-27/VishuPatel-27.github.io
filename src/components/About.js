@@ -36,7 +36,7 @@ const About = () => {
               <div className="space-y-4 text-gray-300 text-base leading-relaxed">
                 <p>Building scalable, secure, and automated cloud infrastructure isn’t just about stringing tools together - it’s about removing friction between development and production.</p>
                 <p>
-                 Hi, my name is Vishukumar Patel. My journey started with a foundation in Computer Engineering and a hands-on role building CI/CD pipelines and containerising microservices for Infusion Analysts, where I helped cut manual release efforts by 30%. Driven by a desire to master modern cloud architecture, I relocated to Toronto to pursue a PG Diploma in DevOps for Cloud Computing at Lambton College (Graduated April 2025, 2x Dean's Honour List). Today, armed with my AWS Solutions Architect (SAA-C03) - Associate certification.
+                  Hi, my name is Vishukumar Patel. My journey started with a foundation in Computer Engineering and a hands-on role building CI/CD pipelines and containerising microservices for Infusion Analysts. Driven by a desire to master modern cloud architecture, I relocated to Toronto to pursue a PG Diploma in DevOps for Cloud Computing at Lambton College (Graduated April 2025, 2x Dean's Honour List). Today, armed with my AWS Solutions Architect (SAA-C03) - Associate, Terraform Associate (004) certifications.
                 </p>
                 
                 <p>
@@ -44,9 +44,11 @@ const About = () => {
                 </p>
                 
                 <p>
-                  𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝗲𝗱 𝗮 𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗚𝗿𝗮𝗱𝗲 𝗘𝗞𝗦 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺: Deployed a multi-service Kubernetes platform (20+ microservices) across multiple availability zones using Terraform, integrating GitOps workflows via ArgoCD to eliminate configuration drift.
-                  𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗲𝗱 𝗗𝗲𝘃𝗦𝗲𝗰𝗢𝗽𝘀 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲𝘀: Built a 13-stage Jenkins declarative pipeline automating everything from build and test to Trivy/SonarQube security gates and Kubernetes deployments.
-                  𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗦𝗲𝗰𝘂𝗿𝗲 𝗦𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲: Delivered an event-driven AWS serverless application (Lambda, API Gateway, DynamoDB) governed by least-privilege IAM, KMS encryption, and infrastructure scanning (Checkov, cfn-lint).
+                  𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝗲𝗱 𝗮 𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗚𝗿𝗮𝗱𝗲 𝗘𝗞𝗦 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺: Deployed a multi-service Kubernetes platform (20+ microservices) across multiple availability zones using Terraform, integrating GitOps workflows via ArgoCD to eliminate configuration drift. </p>
+                <p>
+                  𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗲𝗱 𝗗𝗲𝘃𝗦𝗲𝗰𝗢𝗽𝘀 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲𝘀: Built a 13-stage Jenkins declarative pipeline automating everything from build and test to Trivy/SonarQube security gates and Kubernetes deployments. </p>
+                <p>
+                  𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗦𝗲𝗰𝘂𝗿𝗲 𝗦𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲: Delivered an event-driven AWS serverless application (Lambda, API Gateway, DynamoDB) governed by least-privilege IAM, KMS encryption, and infrstructure scanning (Checkov, cfn-lint).
                 </p>
 
                 <p>I am currently seeking New Grad, Junior, or Intermediate DevOps, Cloud Engineer, or SRE roles where I can contribute to a culture of automation, continuous improvement, and security-first engineering.</p>

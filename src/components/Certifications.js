@@ -1,15 +1,21 @@
 import { motion } from "framer-motion";
 import badgeAws from "../assets/img/aws_solution_architect_associate.png";
 import badgeCPP from "../assets/img/aws-certified-cloud-practitioner.png";
+import badgeTerraform from "../assets/img/hashicorp-certified-terraform-associate-004.png";
 
 const certifications = [
   {
-    name: "AWS Solutions Architect",
+    name: "Hashicorp Certified Terraform Associate",
+    url: "https://www.credly.com/badges/bde8582d-8c2c-4163-a511-a65bdff5c53b/public_url",
+    img: badgeTerraform,
+  },
+  {
+    name: "AWS Certified Solutions Architect",
     url: "https://www.credly.com/badges/a64da476-1c6a-4cce-bb8b-1b5aa034d95d/public_url",
     img: badgeAws,
   },
   {
-    name: "AWSCertified Cloud Practitioner",
+    name: "AWS Certified Cloud Practitioner",
     url: "https://www.credly.com/badges/de8ce692-4ad4-478e-8c17-4c0160a57854/public_url",
     img: badgeCPP,
   },

@@ -46,7 +46,7 @@ const Hero = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8, duration: 0.6 }}
               >
-                I am a DevOps and Cloud Engineer based in Ontario, Canada. I design and automate cloud infrastructure on AWS using Terraform, Kubernetes, and GitOps workflows. I focus on building reliable CI/CD pipelines that improve deployment speed, security, and system stability.
+                I am a DevOps and Cloud Engineer based in Ontario, Canada, with a focus on building production-grade infrastructure that's automated, secure, and built to scale. With hands-on experience architecting multi-AZ Kubernetes platforms on AWS EKS, designing DevSecOps pipelines, and managing infrastructure as code with Terraform, I bridge the gap between development speed and operational reliability.
               </motion.p>
 
               <motion.div

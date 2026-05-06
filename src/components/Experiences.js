@@ -6,7 +6,7 @@ const Experiences = () => {
     {
       companyName: "Infusion Analysts",
       position: "Junior Software Engineer (DevOps Intern)",
-      description: "Built and maintained GitHub Actions CI/CD pipelines for multiple microservices, supporting frequent deployments and reducing manual release effort by 30%. Containerised backend services using Docker and collaborated with QA teams to validate releases and improve deployment reliability. Developed Python and Bash scripts to automate operational tasks, reducing repetitive manual work and improving team efficiency. Troubleshot CI pipeline failures and deployment issues in AWS staging environment, contributing to a 25% reduction in recurring build errors. Created internal documentation for tooling and deployment workflows to support onboarding and async collaboration.",
+      description: "Automated CI/CD workflows using GitHub Actions for 3 microservices, reducing manual release effort by 30% and accelerating developer delivery in an Agile environment. Wrote automation scripts using Python and Bash for operational tasks (log rotation, automated service restarts), significantly improving platform efficiency and reducing manual intervention. Assisted in incident investigation and root cause analysis (RCA) for pipeline failures, maintaining observability metrics to resolve deployment bottlenecks quickly. Assisted in deploying and managing containerized applications on AWS ECS, aligning with security best practices and creating runbooks to support self-service infrastructure operations.",
       duration: "Jan 2022 - Jun 2022",
       location: "Ahemdabad, Gujarat, India",
       accentColor: "rgba(56, 189, 248, 0.8)" // Neon blue

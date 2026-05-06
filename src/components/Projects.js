@@ -99,14 +99,14 @@ const Projects = () => {
   const projects = [
     {
       projectName: "Production-Grade EKS Microservices Platform with GitOps",
-      description: "Deployed a highly available Kubernetes(EKS) cluster orchestrating 20+ microservices across 2 availability zones. Implemented GitOps using ArgoCD app-of-apps pattern to enforce consistent deployments and eliminate configuration drift. Built CI/CD pipelines for 3 services using GitHub Actions with multi-stage Docker builds, integrated security scanning, and automated Kubernetes manifest updates, reducing deployment time by 70%. Provisioned AWS infrastructure using Terraform custom modules, including VPCs, private subnets, NAT gateways, and EKS cluster resources. Configured ALB TLS termination, Route53 DNS, custom domains, and ACM wildcard certificates with health checks and target group routing to securely expose workloads and ArgoCD dashboards. Resolved Kubernetes pod scheduling failures, IAM service account OIDC trust relationships, and ALB health check issues through root cause analysis, improving platform stability and deployment reliability",
+      description: "Architected and deployed a highly available Kubernetes platform across 2 AWS availability zones, supporting 20+ containerized microservices. Provisioned AWS infrastructure (VPC, NAT, EKS) using custom Terraform modules, reducing environment setup time from 2 hours to under 10 minutes. Implemented GitOps workflows using ArgoCD (app-of-apps pattern) and GitHub Actions, achieving fully automated, zero-touch deployments with integrated security scanning. Secured external traffic by configuring ALB ingress with TLS, Route53 DNS, and ACM certificates for seamless application exposure.",
       githubLink: "https://github.com/VishuPatel-27/eks-gitops-microservices.git",
-      techStack: [ "AWS(EKS, VPC, ALB, Route53, ACM)", "Terraform", "Kubernetes", "Docker", "GitHub Actions", "ArgoCD", "Go", "Python", "Java"],
+      techStack: [ "AWS(EKS, VPC, ALB, Route53, ACM)", "Terraform", "Kubernetes", "Docker", "GitHub Actions", "ArgoCD"],
       accentColor: "rgba(56, 189, 248, 1)" // Neon blue
     },
         {
       projectName: "CI/CD Powered Board Game Review Portal",
-      description: "Built a 14-stage Jenkins declarative pipeline automating the full SDLC from commit to deployment, reducing manual release time by 80%. Provisioned a production-style Kubernetes cluster on AWS using kubeadm with multi-node architecture, CNI networking, and RBAC policies to deploy a multi-tier Spring Boot application. Integrated Trivy container scanning and SonarQube static analysis to enforce security and quality gates before deployment. Implemented artifact and image management using Maven, Nexus, and Docker registries to support immutable releases. Deployed Prometheus and Grafana monitoring with Node Exporter and Blackbox Exporter to track Jenkins performance metrics and application availability. Troubleshot Kubernetes networking issues, Jenkins RBAC access problems, and CI pipeline authentication failures",
+      description: "Engineered a comprehensive 13-stage Jenkins declarative CI/CD pipeline automating the full SDLC, significantly reducing manual release time. Provisioned a multi-node Kubernetes cluster on AWS using kubeadm, implementing strict CNI networking and RBAC policies for secure multi-tier application deployment. Enforced continuous security and code quality by integrating Trivy container scanning and SonarQube static analysis directly into the deployment gates. Deployed a robust observability stack using Prometheus and Grafana (Node/Blackbox Exporters) to track infrastructure metrics and application availability.",
       githubLink: "https://github.com/VishuPatel-27/project-board-game.git",
       techStack: ["Jenkins", "Maven", "Nexus", "SonarQube", "Trivy", "Kubeaudit", "Kubernetes (kubeadm)", "Docker", "AWS EC2", "Prometheus", "Grafana"],
       accentColor: "rgba(56, 189, 248, 1)" // Neon blue
@@ -122,7 +122,7 @@ const Projects = () => {
       projectName: "Azure 3-Tier Infrastructure with Custom Terraform Modules",
       description: "Deployed a scalable, highly secure, and redundant 3-Tier application (Node.js/Go/PostgreSQL) on Azure using Infrastructure as Code to enforce configuration drift prevention. Achieved an 85% reduction in environment provisioning time through modularized Terraform IaC, successfully securing all tiers with WAF, Key Vault secrets rotation, NSGs, and a Bastion Host access model.",
       githubLink: "https://github.com/VishuPatel-27/azure-3tier-terraform.git",
-      techStack: [ "Azure VM Scale Sets", "Application Gateway/WAF", "Azure PostgreSQL Flexible Server", "VNet", "Key Vault", "Terraform Custom Modules", "Terraform Remote State", "Docker", "Bash", "Go", "Node.js"],
+      techStack: [ "Azure VM Scale Sets", "Application Gateway/WAF", "Azure PostgreSQL Flexible Server", "VNet", "Key Vault", "Terraform Custom Modules", "Terraform Remote State", "Docker", "Bash"],
       accentColor: "rgba(56, 189, 248, 1)" // Neon blue
     },
   ];
